@@ -1,0 +1,135 @@
+/* First scene */
+/* Text */
+@keyframes showFirstSceneOne {
+    from, 0% {
+        transform: translateY(-90px);
+    }
+
+    3.85% {
+        transform: translateY(-5px);
+    }
+
+    5.13%, 29.49% {
+        transform: translateY(8px);
+    }
+
+    30.77%, to {
+        transform: translateY(80px);
+    }
+}
+
+@keyframes showFirstSceneTwo {
+    from, 0% {
+        transform: translateY(-72px);
+    }
+
+    5.13%, 29.49% {
+        transform: translateY(0px);
+    }
+
+    30.77%, to {
+        transform: translateY(80px);
+    }
+}
+
+/* Cards */
+@keyframes showFirstSceneThree {
+    from, 0% {
+        transform: rotate(-15deg) translateY(100px);
+    }
+
+    5.13%, 29.49% {
+        transform: rotate(-15deg) translateY(37px);
+    }
+
+    30.77%, to {
+        transform: rotate(-15deg) translateY(-200px);
+    }
+}
+
+@keyframes showFirstSceneFour {
+    from, 0% {
+        transform: rotate(-15deg) translateY(100px);
+    }
+
+    5.13%, 29.49% {
+        transform: rotate(-15deg) translateY(-23px);
+    }
+
+    30.77%, to {
+        transform: rotate(-15deg) translateY(-220px);
+    }
+}
+
+/* Card flare */
+@keyframes showFirstSceneFive {
+    from, 3.85% {
+        transform: rotate(15deg) translateY(0px);
+        left: -69px;
+    }
+
+    5.13%, to {
+        transform: rotate(15deg) translateY(-22px);
+        left: -74px
+    }
+}
+
+/* Second scene */
+@keyframes showSecondSceneOne {
+    from, 33.33% {
+        transform: translateY(-50px);
+    }
+
+    34.62%, to {
+        transform: translateY(-28px);
+    }
+
+    37.18%, 61.54% {
+        transform: translateY(0);
+    }
+
+    62.82%, to {
+        transform: translateY(100px);
+    }
+}
+
+@keyframes showSecondSceneTwo {
+    from, 33.33% {
+        transform: translateY(-50px);
+    }
+
+    34.62%, 61.54% {
+        transform: translateY(50px);
+    }
+
+    62.82%, to {
+        transform: translateY(100px);
+    }
+}
+
+@keyframes showSecondSceneThree {
+    from, 33.33% {
+        transform: translate(0, 85px) rotate(8deg);
+    }
+
+    34.62%, 61.54% {
+        transform: translate(-34px, -48px) rotate(8deg);
+    }
+
+    62.82%, to {
+        transform: translate(-34px, -200px) rotate(8deg);
+    }
+}
+
+/* Third scene */
+
+/* Button flare */
+@keyframes showFlare {
+    from, 82.05% {
+        left: -300px;
+    }
+
+    88.46%, to {
+        left: 300px;
+    }
+}
