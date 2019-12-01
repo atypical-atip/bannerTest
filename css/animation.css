@@ -176,11 +176,11 @@
 
 /* Button flare */
 @keyframes showFlare {
-    from, 82.05% {
-        left: -300px;
+    from, 83.33% {
+        left: -170px;
     }
 
-    88.46%, to {
-        left: 300px;
+    84.62%, to {
+        left: 100px;
     }
 }

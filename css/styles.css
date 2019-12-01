@@ -116,7 +116,7 @@
 	background-size: 100% 100%;
 	width: 230px;
 	height: 80px;
-	left: -300px;
+	left: -170px;
     z-index: 2;
     transform: rotate(67deg);
 	animation: showFlare 7.4s linear infinite;
