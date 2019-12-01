@@ -231,12 +231,13 @@
 
 .banner-area__scene-3__money {
     position: absolute;
-    right: 0;
-    top: 90px;
+    right: 0;    
     width: 250px;
     height: 145px;
     background: url('../img/sceneThree/money.png') no-repeat center;
     background-size: contain;
+    transform: translateY(90px);
+    animation: showThirdSceneOne 7.4s linear infinite;
 }
 
 .banner-area__scene-3__line1 {
@@ -248,18 +249,21 @@
     text-align: center;
     position: absolute;
     left: 0;
-    top: -33px;
+    transform: translateY(-35px);
+    animation: showThirdSceneTwo 7.4s linear infinite;
 }
 
 .banner-area__scene-3__line2 {
     font-size: 33px;
     font-family: "Gilroy Light", sans-serif;
+    font-weight: 700;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     line-height: 0.841;
     text-align: center;
     position: absolute;
     left: 0;
-    top: -30px;
+    transform: translateY(-30px);
+    animation: showThirdSceneThree 7.4s linear infinite;
 }
   
