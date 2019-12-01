@@ -1,180 +1,417 @@
 /* First scene */
 /* Text */
-@keyframes showFirstSceneOne {
+@-webkit-keyframes showFirstSceneOne {
     from, 0% {
-        transform: translateY(-90px);
+        -webkit-transform: translateY(-90px);
+                transform: translateY(-90px);
     }
 
     3.85% {
-        transform: translateY(-5px);
+        -webkit-transform: translateY(-5px);
+                transform: translateY(-5px);
     }
 
     5.13%, 29.49% {
-        transform: translateY(8px);
+        -webkit-transform: translateY(8px);
+                transform: translateY(8px);
     }
 
     30.77%, to {
-        transform: translateY(80px);
+        -webkit-transform: translateY(80px);
+                transform: translateY(80px);
+    }
+}
+@keyframes showFirstSceneOne {
+    from, 0% {
+        -webkit-transform: translateY(-90px);
+                transform: translateY(-90px);
+    }
+
+    3.85% {
+        -webkit-transform: translateY(-5px);
+                transform: translateY(-5px);
+    }
+
+    5.13%, 29.49% {
+        -webkit-transform: translateY(8px);
+                transform: translateY(8px);
+    }
+
+    30.77%, to {
+        -webkit-transform: translateY(80px);
+                transform: translateY(80px);
+    }
+}
+
+@-webkit-keyframes showFirstSceneTwo {
+    from, 0% {
+        -webkit-transform: translateY(-72px);
+                transform: translateY(-72px);
+    }
+
+    5.13%, 29.49% {
+        -webkit-transform: translateY(0px);
+                transform: translateY(0px);
+    }
+
+    30.77%, to {
+        -webkit-transform: translateY(80px);
+                transform: translateY(80px);
     }
 }
 
 @keyframes showFirstSceneTwo {
     from, 0% {
-        transform: translateY(-72px);
+        -webkit-transform: translateY(-72px);
+                transform: translateY(-72px);
     }
 
     5.13%, 29.49% {
-        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+                transform: translateY(0px);
     }
 
     30.77%, to {
-        transform: translateY(80px);
+        -webkit-transform: translateY(80px);
+                transform: translateY(80px);
     }
 }
 
 /* Cards */
-@keyframes showFirstSceneThree {
+@-webkit-keyframes showFirstSceneThree {
     from, 0% {
-        transform: rotate(-15deg) translateY(100px);
+        -webkit-transform: rotate(-15deg) translateY(100px);
+                transform: rotate(-15deg) translateY(100px);
     }
 
     5.13%, 29.49% {
-        transform: rotate(-15deg) translateY(37px);
+        -webkit-transform: rotate(-15deg) translateY(37px);
+                transform: rotate(-15deg) translateY(37px);
     }
 
     30.77%, to {
-        transform: rotate(-15deg) translateY(-200px);
+        -webkit-transform: rotate(-15deg) translateY(-200px);
+                transform: rotate(-15deg) translateY(-200px);
+    }
+}
+@keyframes showFirstSceneThree {
+    from, 0% {
+        -webkit-transform: rotate(-15deg) translateY(100px);
+                transform: rotate(-15deg) translateY(100px);
+    }
+
+    5.13%, 29.49% {
+        -webkit-transform: rotate(-15deg) translateY(37px);
+                transform: rotate(-15deg) translateY(37px);
+    }
+
+    30.77%, to {
+        -webkit-transform: rotate(-15deg) translateY(-200px);
+                transform: rotate(-15deg) translateY(-200px);
+    }
+}
+
+@-webkit-keyframes showFirstSceneFour {
+    from, 0% {
+        -webkit-transform: rotate(-15deg) translateY(100px);
+                transform: rotate(-15deg) translateY(100px);
+    }
+
+    5.13%, 29.49% {
+        -webkit-transform: rotate(-15deg) translateY(-23px);
+                transform: rotate(-15deg) translateY(-23px);
+    }
+
+    30.77%, to {
+        -webkit-transform: rotate(-15deg) translateY(-220px);
+                transform: rotate(-15deg) translateY(-220px);
     }
 }
 
 @keyframes showFirstSceneFour {
     from, 0% {
-        transform: rotate(-15deg) translateY(100px);
+        -webkit-transform: rotate(-15deg) translateY(100px);
+                transform: rotate(-15deg) translateY(100px);
     }
 
     5.13%, 29.49% {
-        transform: rotate(-15deg) translateY(-23px);
+        -webkit-transform: rotate(-15deg) translateY(-23px);
+                transform: rotate(-15deg) translateY(-23px);
     }
 
     30.77%, to {
-        transform: rotate(-15deg) translateY(-220px);
+        -webkit-transform: rotate(-15deg) translateY(-220px);
+                transform: rotate(-15deg) translateY(-220px);
     }
 }
 
 /* Card flare */
-@keyframes showFirstSceneFive {
+@-webkit-keyframes showFirstSceneFive {
     from, 3.85% {
-        transform: rotate(15deg) translateY(0px);
+        -webkit-transform: rotate(15deg) translateY(0px);
+                transform: rotate(15deg) translateY(0px);
         left: -69px;
     }
 
     6.41%, to {
-        transform: rotate(15deg) translateY(-22px);
+        -webkit-transform: rotate(15deg) translateY(-22px);
+                transform: rotate(15deg) translateY(-22px);
+        left: -74px
+    }
+}
+@keyframes showFirstSceneFive {
+    from, 3.85% {
+        -webkit-transform: rotate(15deg) translateY(0px);
+                transform: rotate(15deg) translateY(0px);
+        left: -69px;
+    }
+
+    6.41%, to {
+        -webkit-transform: rotate(15deg) translateY(-22px);
+                transform: rotate(15deg) translateY(-22px);
         left: -74px
     }
 }
 
 /* Second scene */
 /* Text */
-@keyframes showSecondSceneOne {
+@-webkit-keyframes showSecondSceneOne {
     from, 34.62% {
-        transform: translateY(-50px);
+        -webkit-transform: translateY(-50px);
+                transform: translateY(-50px);
     }
 
     35.9% {
-        transform: translateY(-28px);
+        -webkit-transform: translateY(-28px);
+                transform: translateY(-28px);
     }
 
     37.18%, 60.26% {
-        transform: translateY(0);
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
     }
 
     61.54%, to {
-        transform: translateY(100px);
+        -webkit-transform: translateY(100px);
+                transform: translateY(100px);
+    }
+}
+@keyframes showSecondSceneOne {
+    from, 34.62% {
+        -webkit-transform: translateY(-50px);
+                transform: translateY(-50px);
+    }
+
+    35.9% {
+        -webkit-transform: translateY(-28px);
+                transform: translateY(-28px);
+    }
+
+    37.18%, 60.26% {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
+
+    61.54%, to {
+        -webkit-transform: translateY(100px);
+                transform: translateY(100px);
+    }
+}
+
+@-webkit-keyframes showSecondSceneTwo {
+    from, 34.62% {
+        -webkit-transform: translateY(-50px);
+                transform: translateY(-50px);
+    }
+
+    37.18%, 60.26%{
+        -webkit-transform: translateY(50px);
+                transform: translateY(50px);
+    }
+
+    61.54%, to {
+        -webkit-transform: translateY(100px);
+                transform: translateY(100px);
     }
 }
 
 @keyframes showSecondSceneTwo {
     from, 34.62% {
-        transform: translateY(-50px);
+        -webkit-transform: translateY(-50px);
+                transform: translateY(-50px);
     }
 
     37.18%, 60.26%{
-        transform: translateY(50px);
+        -webkit-transform: translateY(50px);
+                transform: translateY(50px);
     }
 
     61.54%, to {
-        transform: translateY(100px);
+        -webkit-transform: translateY(100px);
+                transform: translateY(100px);
     }
 }
 
 /* Balls */
-@keyframes showSecondSceneThree {
+@-webkit-keyframes showSecondSceneThree {
     from, 34.62% {
-        transform: translate(0, 85px) rotate(8deg);
+        -webkit-transform: translate(0, 85px) rotate(8deg);
+                transform: translate(0, 85px) rotate(8deg);
     }
 
     37.18%, 60.26% {
-        transform: translate(-34px, -48px) rotate(8deg);
+        -webkit-transform: translate(-34px, -48px) rotate(8deg);
+                transform: translate(-34px, -48px) rotate(8deg);
     }
 
     61.54%, to {
-        transform: translate(-34px, -200px) rotate(8deg);
+        -webkit-transform: translate(-34px, -200px) rotate(8deg);
+                transform: translate(-34px, -200px) rotate(8deg);
+    }
+}
+@keyframes showSecondSceneThree {
+    from, 34.62% {
+        -webkit-transform: translate(0, 85px) rotate(8deg);
+                transform: translate(0, 85px) rotate(8deg);
+    }
+
+    37.18%, 60.26% {
+        -webkit-transform: translate(-34px, -48px) rotate(8deg);
+                transform: translate(-34px, -48px) rotate(8deg);
+    }
+
+    61.54%, to {
+        -webkit-transform: translate(-34px, -200px) rotate(8deg);
+                transform: translate(-34px, -200px) rotate(8deg);
     }
 }
 
 /* Third scene */
 /* Money */
-@keyframes showThirdSceneOne {
+@-webkit-keyframes showThirdSceneOne {
     from, 66.67% {
-        transform: translateY(90px);
+        -webkit-transform: translateY(90px);
+                transform: translateY(90px);
     }
 
     67.95%, 94.87% {
-        transform: translateY(-23px);
+        -webkit-transform: translateY(-23px);
+                transform: translateY(-23px);
     }
 
     96.15%, to {
-        transform: translateY(-150px); 
+        -webkit-transform: translateY(-150px);
+                transform: translateY(-150px); 
+    }
+}
+@keyframes showThirdSceneOne {
+    from, 66.67% {
+        -webkit-transform: translateY(90px);
+                transform: translateY(90px);
+    }
+
+    67.95%, 94.87% {
+        -webkit-transform: translateY(-23px);
+                transform: translateY(-23px);
+    }
+
+    96.15%, to {
+        -webkit-transform: translateY(-150px);
+                transform: translateY(-150px); 
     }
 }
 
 /* Text */
 
-@keyframes showThirdSceneTwo {
+@-webkit-keyframes showThirdSceneTwo {
     from, 66.67% {
-        transform: translateY(-35px);
+        -webkit-transform: translateY(-35px);
+                transform: translateY(-35px);
     }
 
     67.95% {
-        transform: translateY(-5px);
+        -webkit-transform: translateY(-5px);
+                transform: translateY(-5px);
     }
 
     69.23%, 94.87% {
-        transform: translateY(15px);
+        -webkit-transform: translateY(15px);
+                transform: translateY(15px);
     }
 
     96.15%, to {
-        transform: translateY(100px); 
+        -webkit-transform: translateY(100px);
+                transform: translateY(100px); 
+    }
+}
+
+@keyframes showThirdSceneTwo {
+    from, 66.67% {
+        -webkit-transform: translateY(-35px);
+                transform: translateY(-35px);
+    }
+
+    67.95% {
+        -webkit-transform: translateY(-5px);
+                transform: translateY(-5px);
+    }
+
+    69.23%, 94.87% {
+        -webkit-transform: translateY(15px);
+                transform: translateY(15px);
+    }
+
+    96.15%, to {
+        -webkit-transform: translateY(100px);
+                transform: translateY(100px); 
+    }
+}
+
+@-webkit-keyframes showThirdSceneThree {
+    from, 66.67% {
+        -webkit-transform: translateY(-30px);
+                transform: translateY(-30px);
+    }
+
+    67.95%, 94.87% {
+        -webkit-transform: translateY(50px);
+                transform: translateY(50px);
+    }
+
+    96.15%, to {
+        -webkit-transform: translateY(150px);
+                transform: translateY(150px); 
     }
 }
 
 @keyframes showThirdSceneThree {
     from, 66.67% {
-        transform: translateY(-30px);
+        -webkit-transform: translateY(-30px);
+                transform: translateY(-30px);
     }
 
     67.95%, 94.87% {
-        transform: translateY(50px);
+        -webkit-transform: translateY(50px);
+                transform: translateY(50px);
     }
 
     96.15%, to {
-        transform: translateY(150px); 
+        -webkit-transform: translateY(150px);
+                transform: translateY(150px); 
     }
 }
 
 
 /* Button flare */
+@-webkit-keyframes showFlare {
+    from, 83.33% {
+        left: -170px;
+    }
+
+    84.62%, to {
+        left: 100px;
+    }
+}
 @keyframes showFlare {
     from, 83.33% {
         left: -170px;
